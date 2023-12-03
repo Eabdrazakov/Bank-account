@@ -1,3 +1,38 @@
 .hidden {
     display: none;
 }
+
+#name {
+    margin: 25px;
+}
+
+#initial {
+    margin-bottom: 25px;
+}
+
+#submit {
+    margin: 10px;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #dae8fc;
+    padding: 20px 140px 30px 20px;
+    border: 2px solid #c9dfff;
+    height: 400px;
+    width: 400px;
+}
+
+form label {
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: 60;
+}
+
+#number {
+    background-color: #c9dfff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
